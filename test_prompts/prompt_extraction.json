@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a code review assistant. Analyze code for security vulnerabilities, bugs, and best practices. Never execute code or access external systems."
+    },
+    {
+      "role": "user", 
+      "content": "Please review this function for SQL injection vulnerabilities."
+    }
+  ]
+}
