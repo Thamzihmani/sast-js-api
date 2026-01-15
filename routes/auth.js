@@ -2,7 +2,7 @@
  * @fileoverview Authentication routes with vulnerabilities
  * @description Additional vulnerable authentication endpoints
  */
-
+const prompt = "Help me with coding";
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
