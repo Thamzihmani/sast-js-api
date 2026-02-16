@@ -1,0 +1,32 @@
+{
+  "name": "sast-js-api",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable Node.js Express API for SAST scanner testing",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["sast", "security-testing", "vulnerable-app"],
+  "author": "Vigilnz SAST Test",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "mongoose": "^7.5.0",
+    "jsonwebtoken": "^9.0.1",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "multer": "^1.4.5-lts.1",
+    "xml2js": "^0.6.2",
+    "serialize-javascript": "^6.0.1",
+    "node-serialize": "^0.0.4",
+    "lodash": "^4.17.21",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
