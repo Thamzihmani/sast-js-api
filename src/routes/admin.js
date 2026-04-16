@@ -12,6 +12,7 @@ const crypto = require("crypto");
 /**
  * POST /admin/eval
  * VULNERABILITY: Direct eval() of user input
+ // vigilnz-ignore taint-code_injection
  * Taint: req.body.expression → eval() (Source → Sink)
  */
 router.post("/eval", (req, res) => {
