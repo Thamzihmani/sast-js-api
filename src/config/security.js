@@ -5,8 +5,10 @@
 const crypto = require("crypto");
 
 // VULNERABILITY: Hardcoded encryption keys
+// vigilnz-ignore-start
 const ENCRYPTION_KEY = "aes256-key-1234567890abcdef";
 const SIGNING_KEY = "hmac-signing-secret-key-12345";
+// vigilnz-ignore-end
 
 // VULNERABILITY: Weak session configuration
 const SESSION_CONFIG = {
