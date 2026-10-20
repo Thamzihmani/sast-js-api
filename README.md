@@ -6,7 +6,7 @@ This is an intentionally vulnerable Express.js API designed to test SAST (Static
 
 **⚠️ WARNING: This code contains intentional security vulnerabilities. DO NOT use in production!**
 
-## Vulnerabilities Included
+## Vulnerabilities Included many things please check it 
 
 ### 1. Hardcoded Secrets (CWE-798) - CRITICAL
 - JWT secrets hardcoded in code
